@@ -134,6 +134,8 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+BASE_API_URL = "api/cinema/"
+
 INTERNAL_IPS = [
     # ...
     "127.0.0.1",
